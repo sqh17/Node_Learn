@@ -3,9 +3,9 @@ const { default: Axios } = require("axios");
 const schedule = require("node-schedule");
 // 发送邮件函数
 async function sendMail(text) {
-  var user = "852104785@qq.com";//自己的邮箱
-  var pass = "ovrubpmjldjqbffg"; //qq邮箱授权码,如何获取授权码下面有讲
-  var to = "gyrgh@163.com";//对方的邮箱
+  var user = "xxx@qq.com";//自己的邮箱
+  var pass = "xxxx"; //qq邮箱授权码,如何获取授权码下面有讲
+  var to = "xxx@163.com";//对方的邮箱
   let transporter = nodemailer.createTransport({
     host: "smtp.qq.com",
     port: 587,
